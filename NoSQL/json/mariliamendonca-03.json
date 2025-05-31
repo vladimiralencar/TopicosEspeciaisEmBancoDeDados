@@ -1,0 +1,25 @@
+{
+    "_id" : ObjectId("67013c41182e48e4d106d848"),
+    "tracks" : {
+        "items" : [
+            {
+                "album" : {
+                    "name" : "Marília Mendonça - Ao Vivo",
+                    "release_date" : "2016-03-04",
+                    "release_date_precision" : "day",
+                    "total_tracks" : NumberInt(17),
+                    "type" : "album",
+                    "uri" : "spotify:album:0qy6yZjgoZ2cGGk9joy8E4" 
+                    "images" : [
+                        {
+                            "height" : NumberInt(640),
+                            "url" : "https://i.scdn.co/image/ab67616d0000b2737b4293f65f8fe7003c29279c",
+                            "width" : NumberInt(640)
+                        },
+                    ],
+
+                }
+            }
+        }
+    }
+}

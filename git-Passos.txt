@@ -1,0 +1,27 @@
+
+# Git Clonar 
+git clone https://github.com/vladimiralencar/Alunos-UEPB-TopicosEspeciaisEmBancoDeDados.git
+
+# GitHub atualizar Maquina Local -> GitHub
+cd Alunos-UEPB-TopicosEspeciaisEmBancoDeDados
+git init
+git add .
+git commit -m "atualizado"
+git push origin master (usuário: vladimiralencar)
+
+# Forca atualizacao
+ git push -f origin master
+
+
+# Refaz o ĩndice
+git filter-branch --tree-filter 'rm -rf Python-Para-Analise-de-Dados/caso.csv' HEAD
+
+
+# GitHub -> Máquina local (Atualizar)
+git clone https://github.com/vladimiralencar/Alunos-UEPB-TopicosEspeciaisEmBancoDeDados.git
+cd Alunos-UEPB-TopicosEspeciaisEmBancoDeDados
+git init
+git add .
+git commit -m "atualizado"
+git pull origin master
+

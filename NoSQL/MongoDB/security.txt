@@ -1,0 +1,21 @@
+sudo ufw enable
+sudo ufw status
+sudo ufw default deny incoming
+sudo ufw status
+
+sudo ufw default allow outgoing
+sudo ufw allow ssh
+sudo ufw allow 22
+
+sudo ufw allow 6000:6005/tcp
+sudo ufw allow from 192.168.0.6
+sudo ufw allow from 192.168.0.0/24
+sudo ufw deny http
+sudo ufw status
+sudo ufw status numbered
+sudo ufw delete 6
+
+ sudo ufw status numbered
+ sudo ufw delete 9
+
+ sudo ufw status numbered
